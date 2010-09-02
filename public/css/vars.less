@@ -6,7 +6,7 @@
 
 #client-shadow {
 	.small{
-		@shadow-color:#999;
+		@shadow-color:rgba(0,0,0,.35);
 		@shadow-width:16px;
 		-webkit-box-shadow: 0 0 @shadow-width @shadow-color;
 		-moz-box-shadow: 0 0 @shadow-width @shadow-color;
@@ -16,7 +16,7 @@
 	}
 	
 	.smalldark{
-		@shadow-color:#777;
+		@shadow-color:rgba(0,0,0,.55);
 		@shadow-width:16px;
 		-webkit-box-shadow: 0 0 @shadow-width @shadow-color;
 		-moz-box-shadow: 0 0 @shadow-width @shadow-color;
@@ -26,8 +26,8 @@
 	}
 
 	.big{
-		@shadow-color:#333;
-		@shadow-width:30px;
+		@shadow-color:rgba(0,0,0,.75);
+		@shadow-width:20px;
 		-webkit-box-shadow: 0 0 @shadow-width @shadow-color;
 		-moz-box-shadow: 0 0 @shadow-width @shadow-color;
 		-ms-box-shadow: 0 0 @shadow-width @shadow-color;
@@ -36,7 +36,7 @@
 	}
 
 	.inset{
-		@shadow-color:#efefef;
+		@shadow-color:rgba(0,0,0,.2);
 		@shadow-width:5px;
 		-webkit-box-shadow: 0 0 @shadow-width @shadow-color inset;
 		-moz-box-shadow: 0 0 @shadow-width @shadow-color inset;
